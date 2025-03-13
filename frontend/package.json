@@ -1,0 +1,22 @@
+{
+  "name": "ai-finance-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7",
+    "postcss": "^8.4.23",
+    "autoprefixer": "^10.4.14",
+    "vite": "^4.2.0",
+    "typescript": "^5.1.6"
+  }
+}
