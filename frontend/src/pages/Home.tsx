@@ -19,3 +19,18 @@ const Home = () => {
 };
 
 export default Home;
+import React from "react";
+import Profile from "./pages/Profile";
+import Market from "./pages/Market";
+
+const Home: React.FC = () => {
+  return (
+    <div className="p-6 space-y-6">
+      <Profile />
+      <Market />
+    </div>
+  );
+};
+
+export default Home;
+
