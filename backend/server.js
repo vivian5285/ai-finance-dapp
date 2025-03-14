@@ -24,3 +24,7 @@ app.use("/api/users", require("./routes/userRoutes"));
 app.listen(PORT, () => {
   console.log(`🚀 服务器运行在 http://localhost:${PORT}`);
 });
+app.get('/', (req, res) => {
+    res.send('🚀 AI Finance API 服务器已启动！');
+});
+
